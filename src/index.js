@@ -1,13 +1,13 @@
-function generateRecipe(event) {
+function generateClassicSongs(event) {
   event.preventDefault();
 
-  new Typewriter("#recipe", {
-    strings: "Italian pizza",
+  new Typewriter("#song", {
+    strings: "Mamma Mia",
     autoStart: true,
     delay: 1,
     cursor: "",
   });
 }
 
-let recipeFormElement = document.querySelector("#recipe-generator-form");
-recipeFormElement.addEventListener("submit", generateRecipe);
+let songFormElement = document.querySelector("#song-generator-form");
+songFormElement.addEventListener("submit", generateSong);
