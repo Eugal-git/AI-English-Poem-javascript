@@ -1,13 +1,13 @@
-function generateClassicSongs(event) {
+function generatePoem(event) {
   event.preventDefault();
 
-  new Typewriter("#song", {
-    strings: "Mamma Mia",
+  new Typewriter("#poem", {
+    strings: "I shall imagine life",
     autoStart: true,
     delay: 1,
     cursor: "",
   });
 }
 
-let songFormElement = document.querySelector("#song-generator-form");
-songFormElement.addEventListener("submit", generateSong);
+let poemFormElement = document.querySelector("#poem-generator-form");
+poemFormElement.addEventListener("submit", generatePoem);
