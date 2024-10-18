@@ -1,13 +1,13 @@
-function generateRecipes(event) {
+function generateRecipe(event) {
   event.preventDefault();
 
-  new Typewriter("#recipes", {
-    strings: "pizza recipes",
+  new Typewriter("#recipe", {
+    strings: "pizza recipe",
     autoStart: true,
     delay: 1,
     cursor: "",
   });
 }
 
-let recipesFormElement = document.querySelector("#recipes-generator-form");
-recipesFormElement.addEventListener("submit", generateRecipes);
+let recipeFormElement = document.querySelector("#recipe-generator-form");
+recipeFormElement.addEventListener("submit", generateRecipe);
