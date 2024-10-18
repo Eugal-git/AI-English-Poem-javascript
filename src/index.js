@@ -2,7 +2,7 @@ function generateRecipe(event) {
   event.preventDefault();
 
   new Typewriter("#recipe", {
-    strings: "pizza recipe",
+    strings: "Italian pizza",
     autoStart: true,
     delay: 1,
     cursor: "",
